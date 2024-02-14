@@ -19,11 +19,13 @@ Basically, this means that you can treat any PWM-able common-anode RGB LED strip
 Usage is easy. First you'll need a 2mm JST PH cable, such as this one with pins. Then pick one of two powering options
 
 If you are using less than 2A of current total across all 3 channels:
+
 	1. Connect the white wire to your NeoPixel-compatible signal, 3 or 5V logic.
 	2. Connect the red wire to 3-16VDC, this will power the LED strip
 	3. Connect the black ground wire to your microcontroller and power supply shared ground
 	
 If you are using more than 2A of current total across all 3 channels, you'll need to wire the power supply to the terminal block since JST PH connectors are only rated for 2A.
+
 	1. Connect the white wire to your NeoPixel-compatible signal, 3 or 5V logic.
 	2. Connect your 3-16V power supply positive pin to the V+ to the terminal block, keep the red wire from being used by taping it or cutting it off.
 	3. Connect the 3-16V power supply ground pin to the GND on the terminal block
