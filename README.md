@@ -32,6 +32,11 @@ If you are using more than 2A of current total across all 3 channels, you'll nee
 	4. Connect the black wire as a 'reference' ground to your microcontroller that is providing the NeoPixel signal
 
 An onboard green ON LED will let you know that it is powered correctly, and a red Signal LED will lightly blink when data is sent on the Signal line. If you need to chain more than one, or want to connect some other NeoPixels to the output, there's a pin for the Output signal on the board.
+
+<b>Revision History:</b>
+
+* As of February 13, 2025 - We've updated this design to add a built-in level shifter so it will work flawlessly with 3V or 5V NeoPixel signals.
+
 ### License
 
 Adafruit invests time and resources providing this open source design, please support Adafruit and open-source hardware by purchasing products from [Adafruit](https://www.adafruit.com)!
